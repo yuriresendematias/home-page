@@ -11,27 +11,30 @@
 </head>
 
 <body>
-    <div class="header-content"></div>
-        
+    <div class="row">
+        <img src="../media/Resende.gif" alt="">
+    </div>
+
     <div class="container mt-5">
         <div class="row">
             <div class="col-6 mx-auto mb-4">
                 <h2>Um pouco dos meus projetos!</h2>
             </div>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselIndicators" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-4">
+
                                 <div class="card card-home">
                                     <div class="face front">
                                         <p class="m-4 ">Mussum Ipsum, cacilds vidis litro abertis. Bota 1 metro de
@@ -40,17 +43,20 @@
                                             laoreet.
                                         </p>
                                     </div>
-                                    <img src="images/i am pickle rick.png" class="face back d-block w-100 h-100"
-                                        alt="...">
+
+                                    <img src="images/i am pickle rick.png"
+                                        class="img-fluid face back d-block w-100 h-100" alt="...">
+
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="card card-home">
-                                <div class="face front">
-                                    <p class="m-4 ">Eu conheço uma cachacis que pode
-                                        alegrar sua vidis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris.
-                                    </p>
-                                </div>
+                                    <div class="face front">
+                                        <p class="m-4 ">Eu conheço uma cachacis que pode
+                                            alegrar sua vidis. Não sou faixa preta cumpadi, sou preto inteiris,
+                                            inteiris.
+                                        </p>
+                                    </div>
                                     <img src="images/stars.jpg" class="face back d-block w-100 h-100">
                                 </div>
                             </div>
@@ -154,12 +160,169 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div id="carouselIndicatorsSmallScreen" class="carousel slide d-sm-none" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselIndicatorsSmallScreen" data-bs-slide-to="8"
+                        aria-label="Slide 9"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Mussum Ipsum, cacilds vidis litro abertis. Bota 1 metro de
+                                    cachacis aí pra viagem! Nullam volutpat risus nec leo commodo, ut interdum
+                                    diam
+                                    laoreet.
+                                </p>
+                            </div>
+
+                            <img src="images/i am pickle rick.png" class="img-fluid face back d-block w-100 h-100"
+                                alt="...">
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Eu conheço uma cachacis que pode
+                                    alegrar sua vidis. Não sou faixa preta cumpadi, sou preto inteiris,
+                                    inteiris.
+                                </p>
+                            </div>
+                            <img src="images/stars.jpg" class="face back d-block w-100 h-100">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Mussum Ipsum, cacilds vidis litro abertis. Bota 1 metro de
+                                    cachacis aí pra viagem! Nullam volutpat risus nec leo commodo, ut interdum
+                                    diam
+                                    laoreet. Sed non consequat odio. Tá deprimidis, eu conheço uma cachacis que
+                                    pode
+                                    alegrar sua vidis. Não sou faixa preta cumpadi, sou preto inteiris,
+                                    inteiris.
+                                </p>
+                            </div>
+                            <img src="images/zoombies.jpg" class="face back d-block w-100 h-100" alt="...">
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Sed non consequat odio. Tá deprimidis, eu conheço uma cachacis
+                                    que pode
+                                    alegrar sua vidis. Não sou faixa preta cumpadi, sou preto inteiris,
+                                    inteiris.
+                                </p>
+                            </div>
+                            <img src="images/pickle rick 3.png" class="face back d-block w-100 h-100" alt="...">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Mussum Ipsum, cacilds vidis litro abertis. Bota 1 metro de
+                                    cachacis aí pra viagem! Nullam volutpat risus nec leo commodo, ut interdum
+                                    diam
+                                    laoreet.
+                                </p>
+                            </div>
+                            <img src="images/machine-man-1.png" class="face back d-block w-100 h-100" alt="...">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Mussum Ipsum, cacilds vidis litro abertis. Eu conheço uma
+                                    cachacis que pode
+                                    alegrar sua vidis. Não sou faixa preta cumpadi, sou preto inteiris,
+                                    inteiris.
+                                </p>
+                            </div>
+                            <img src="images/machine-man-3.png" class="face back d-block w-100 h-100" alt="...">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Eu conheço uma cachacis que pode
+                                    alegrar sua vidis. Não sou faixa preta cumpadi, sou preto inteiris,
+                                    inteiris.
+                                </p>
+                            </div>
+                            <img src="images/homem-cidade-FULL.jpg" class="face back d-block w-100 h-100" alt="...">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Tá deprimidis, eu conheço uma cachacis que pode
+                                    alegrar sua vidis. Não sou faixa preta cumpadi, sou preto inteiris,
+                                    inteiris.
+                                </p>
+                            </div>
+                            <img src="images/machine-man-2.png" class="face back d-block w-100 h-100" alt="...">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card card-home">
+                            <div class="face front">
+                                <p class="m-4 ">Mussum Ipsum, cacilds vidis litro abertis. Bota 1 metro de
+                                    cachacis aí pra viagem! Nullam volutpat risus nec leo commodo, ut interdum
+                                    diam
+                                    laoreet.
+                                </p>
+                            </div>
+                            <img src="images/machine-man-4.png" class="face back d-block w-100 h-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicatorsSmallScreen"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicatorsSmallScreen"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -171,25 +334,25 @@
 
         <div class="row">
             <div class="col-4">
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Atirei o pau no gatis, per gatis num morreus. Mais vale um
-                    bebadis conhecidiss, que um alcoolatra anonimis. Diuretics paradis num copo é motivis de denguis.
-                    Per aumento de cachacis, eu reclamis. </p>
+                <h3>Formação</h3>
+                <p>Bacharel em Ciência da Computação pela Univesidade Federal do Agreste de Pernambuco - UFAPE. </p>
             </div>
 
             <div class="col-4">
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Quem num
-                    gosta di mim que vai caçá sua turmis! Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis,
-                    aguis e fermentis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum
-                    felis.</p>
+                <h3>Experiência</h3>
+                <p>Participação no desenvolvimento dos sistemas <a href="#">Certifica</a> e <a href="#">Submeta</a> da
+                    UFAPE
+                    durante o meu periodo no <a href="#">LMTS</a>.</p>
             </div>
 
             <div class="col-4">
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Quem num
-                    gosta di mim que vai caçá sua turmis! Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis,
-                    aguis e fermentis. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum
-                    felis.</p>
+                <h3>Interesses</h3>
+                <p>Desenvolvimento WEB, Machine Learn, Inteligência Artificial . . .</p>
             </div>
         </div>
+
+
+
     </div>
 
 
